@@ -2,7 +2,7 @@
 
 ## Portfolio Plan
 
-	As a web designer and developer, I figured my Portfolio should be a showcase of my skills in and of itself (Jones). As a result, I am going to make a single page React.JS web application hosted via GitHub pages. This is also a good way to stay in practice, and it affords me total control over my website (Brabender). I will also make use of React-Bootstrap for professional styling.
+As a web designer and developer, I figured my Portfolio should be a showcase of my skills in and of itself (Jones). As a result, I am going to make a single page React.JS web application hosted via GitHub pages. This is also a good way to stay in practice, and it affords me total control over my website (Brabender). I will also make use of React-Bootstrap for professional styling.
 
 I plan on including:
 1.	[The Atlanta Federal Reserve’s Career Ladder Identifier and Financial Forecaster](https://emar-data-tools.shinyapps.io/cliff_dashboard_demo/)
