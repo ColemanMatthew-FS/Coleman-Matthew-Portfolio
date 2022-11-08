@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e92434b1.css",
-    "main.js": "/static/js/main.6e370893.js",
-    "static/js/787.72b770ed.chunk.js": "/static/js/787.72b770ed.chunk.js",
-    "static/media/profile.jpeg": "/static/media/profile.c2c94f588a4df6d2ba15.jpeg",
-    "static/media/waygo1.png": "/static/media/waygo1.6fe42e13d4c5b61d7511.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.e92434b1.css.map": "/static/css/main.e92434b1.css.map",
-    "main.6e370893.js.map": "/static/js/main.6e370893.js.map",
-    "787.72b770ed.chunk.js.map": "/static/js/787.72b770ed.chunk.js.map"
+    "main.css": "/Coleman-Matthew-Portfolio/static/css/main.e92434b1.css",
+    "main.js": "/Coleman-Matthew-Portfolio/static/js/main.20848e60.js",
+    "static/js/787.72b770ed.chunk.js": "/Coleman-Matthew-Portfolio/static/js/787.72b770ed.chunk.js",
+    "static/media/profile.jpeg": "/Coleman-Matthew-Portfolio/static/media/profile.c2c94f588a4df6d2ba15.jpeg",
+    "static/media/waygo1.png": "/Coleman-Matthew-Portfolio/static/media/waygo1.6fe42e13d4c5b61d7511.png",
+    "static/media/logo.svg": "/Coleman-Matthew-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Coleman-Matthew-Portfolio/index.html",
+    "main.e92434b1.css.map": "/Coleman-Matthew-Portfolio/static/css/main.e92434b1.css.map",
+    "main.20848e60.js.map": "/Coleman-Matthew-Portfolio/static/js/main.20848e60.js.map",
+    "787.72b770ed.chunk.js.map": "/Coleman-Matthew-Portfolio/static/js/787.72b770ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e92434b1.css",
-    "static/js/main.6e370893.js"
+    "static/js/main.20848e60.js"
   ]
 }
