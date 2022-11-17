@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/Coleman-Matthew-Portfolio/static/css/main.870f6108.css",
-    "main.js": "/Coleman-Matthew-Portfolio/static/js/main.362c19df.js",
+    "main.js": "/Coleman-Matthew-Portfolio/static/js/main.d66288c7.js",
     "static/js/787.72b770ed.chunk.js": "/Coleman-Matthew-Portfolio/static/js/787.72b770ed.chunk.js",
     "static/media/profile.jpeg": "/Coleman-Matthew-Portfolio/static/media/profile.c2c94f588a4df6d2ba15.jpeg",
     "static/media/wdd353.jpg": "/Coleman-Matthew-Portfolio/static/media/wdd353.882eb69b2c7fb7fa9106.jpg",
     "static/media/ziptrip.jpg": "/Coleman-Matthew-Portfolio/static/media/ziptrip.17a301edb3dcebe2075a.jpg",
     "static/media/superorganize.png": "/Coleman-Matthew-Portfolio/static/media/superorganize.7b9097b8d6c9e28665db.png",
     "static/media/waygo1.png": "/Coleman-Matthew-Portfolio/static/media/waygo1.6fe42e13d4c5b61d7511.png",
-    "static/media/logo.svg": "/Coleman-Matthew-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Coleman-Matthew-Portfolio/index.html",
     "main.870f6108.css.map": "/Coleman-Matthew-Portfolio/static/css/main.870f6108.css.map",
-    "main.362c19df.js.map": "/Coleman-Matthew-Portfolio/static/js/main.362c19df.js.map",
+    "main.d66288c7.js.map": "/Coleman-Matthew-Portfolio/static/js/main.d66288c7.js.map",
     "787.72b770ed.chunk.js.map": "/Coleman-Matthew-Portfolio/static/js/787.72b770ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.870f6108.css",
-    "static/js/main.362c19df.js"
+    "static/js/main.d66288c7.js"
   ]
 }
