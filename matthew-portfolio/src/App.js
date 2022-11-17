@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import { useRef } from 'react';
 import { Container, Row, Col, Card, Ratio, Tab, Tabs } from 'react-bootstrap'
 import './App.scss';
 import waygo from './images/waygo1.png'
@@ -8,6 +8,15 @@ import superorganize from './images/superorganize.png'
 import profile from './images/profile.jpeg'
 
 function App() {
+  const video = useRef();
+  let command = {
+    "event":"command",
+    "func":"pauseVideo"
+  }
+  const pauseVideo = () => {
+    video.current.contentWindow.postMessage(JSON.stringify(command),"*");
+  };
+
   return (
     <div className="App">
       <header style={{height: "25vh", display:'flex', alignItems: 'center', justifyContent: 'center', color: '#fdfdfe'}}>
@@ -20,6 +29,7 @@ function App() {
               <Card.Header>
                 <Tabs
                   defaultActiveKey="home"
+                  onSelect={() => pauseVideo()}
                   fill
                 >
                   <Tab eventKey="home" title="Home">
@@ -27,9 +37,10 @@ function App() {
                     <h3 className="text-center">Web Designer • Web Developer</h3>
                     <hr></hr>
                     <Ratio aspectRatio="16x9">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnuwB35GYMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      {/* note: "?enablejsapi=1" is necessary for the postmessage commands to work! */}
+                      <iframe ref={video} width="560" height="315" src="https://www.youtube.com/embed/83YQmNdOmm4?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Ratio>
-                    <p className="text-center">Hi! I'm Matthew Coleman, and blah blah blah</p>
+                    <p className="text-center">Hi! I'm Matthew Coleman, and I'm a full-stack web dev based near Atlanta</p>
                   </Tab>
                   <Tab style={{height: '100%'}} eventKey="projects" title="Projects">
                     <Row className="mt-4">
