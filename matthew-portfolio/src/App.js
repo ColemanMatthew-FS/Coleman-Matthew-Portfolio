@@ -49,7 +49,7 @@ function App() {
                           <Card.Img variant="top" src={waygo}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">WayGo</Card.Title>
-                            <Card.Text className="text-center">Functional, Heroku-hosted web application</Card.Text>
+                            <Card.Text className="text-center">Heroku-hosted web application (now deprecated). Key lessons included React-Bootstrap, PostgreSQL, and React-Redux.</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
@@ -58,7 +58,7 @@ function App() {
                           <Card.Img variant="top" src={wdd353}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">WDD353</Card.Title>
-                            <Card.Text className="text-center">Bootstrap frontend connected to a Node Express backend, complete with functioning login screen</Card.Text>
+                            <Card.Text className="text-center">Bootstrap frontend connected to a Node Express backend, complete with functioning login screen, key learnings included browser sessions.</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
@@ -69,7 +69,7 @@ function App() {
                           <Card.Img variant="top" src={ziptrip}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">ZipTrip</Card.Title>
-                            <Card.Text className="text-center">A multi page, GitHub Pages site made in Bootstrap, mocking up a concept for a Travel related app</Card.Text>
+                            <Card.Text className="text-center">A multi page, GitHub Pages site made in Bootstrap, mocking up a concept for a Travel related app, key learnings included prototyping in Adobe XD, and styling in Bootstrap</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
@@ -78,7 +78,7 @@ function App() {
                           <Card.Img variant="top" src={superorganize}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">SuperOrganize Kanban</Card.Title>
-                            <Card.Text className="text-center">Persistent kanban application created with JavaScript, HTML, and SCSS</Card.Text>
+                            <Card.Text className="text-center">Persistent kanban application created with JavaScript, HTML, and SCSS, key learnings included HTML, CSS, and creating an alternate theme.</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
