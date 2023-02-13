@@ -1,10 +1,10 @@
 import { useRef } from 'react';
 import { Container, Row, Col, Card, Ratio, Tab, Tabs } from 'react-bootstrap'
 import './App.scss';
-import waygo from './images/waygo1.png'
+import cliffdash from './images/cliffdash.png'
 import wdd353 from './images/wdd353.jpg'
 import ziptrip from './images/ziptrip.jpg'
-import superorganize from './images/superorganize.png'
+import cliffport from './images/cliffport.png'
 import profile from './images/profile.jpeg'
 
 function App() {
@@ -45,11 +45,11 @@ function App() {
                   <Tab style={{height: '100%'}} eventKey="projects" title="Projects">
                     <Row className="mt-4">
                       <Col md="6">
-                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://github.com/ePortfolios/wdd-2209-ColemanMatthew-FS"><Card>
-                          <Card.Img variant="top" src={waygo}></Card.Img>
+                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://emar-data-tools.shinyapps.io/cliff_dashboard_demo/"><Card>
+                          <Card.Img variant="top" src={cliffdash}></Card.Img>
                           <Card.Body>
-                            <Card.Title className="text-center">WayGo</Card.Title>
-                            <Card.Text className="text-center">Functional, Heroku-hosted web application</Card.Text>
+                            <Card.Title className="text-center">CLIFF Dashboard</Card.Title>
+                            <Card.Text className="text-center">Worked to port existing Atlanta Federal Reserve tools into HTML, CSS, and JavaScript</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
@@ -58,7 +58,7 @@ function App() {
                           <Card.Img variant="top" src={wdd353}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">WDD353</Card.Title>
-                            <Card.Text className="text-center">Bootstrap frontend connected to a Node Express backend, complete with functioning login screen</Card.Text>
+                            <Card.Text className="text-center">Bootstrap frontend connected to a Node Express backend, complete with functioning login screen, key learnings included browser sessions.</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
@@ -69,16 +69,16 @@ function App() {
                           <Card.Img variant="top" src={ziptrip}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">ZipTrip</Card.Title>
-                            <Card.Text className="text-center">A multi page, GitHub Pages site made in Bootstrap, mocking up a concept for a Travel related app</Card.Text>
+                            <Card.Text className="text-center">A multi page, GitHub Pages site made in Bootstrap, mocking up a concept for a Travel related app, key learnings included prototyping in Adobe XD, and styling in Bootstrap</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
                       <Col md="6">
-                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://github.com/dws2/kanban-ColemanMatthew-FS/tree/master"><Card>
-                          <Card.Img variant="top" src={superorganize}></Card.Img>
+                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://emar-data-tools.shinyapps.io/clifftool/"><Card>
+                          <Card.Img variant="top" src={cliffport}></Card.Img>
                           <Card.Body>
-                            <Card.Title className="text-center">SuperOrganize Kanban</Card.Title>
-                            <Card.Text className="text-center">Persistent kanban application created with JavaScript, HTML, and SCSS</Card.Text>
+                            <Card.Title className="text-center">CLIFF Portal</Card.Title>
+                            <Card.Text className="text-center">Created a Portal page for the Atlanta Fed's CLIFF tools using HTML, CSS, JavaScript, and Bootstrap.</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
