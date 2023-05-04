@@ -28,20 +28,10 @@ function App() {
             <Card>
               <Card.Header>
                 <Tabs
-                  defaultActiveKey="home"
+                  defaultActiveKey="projects"
                   onSelect={() => pauseVideo()}
                   fill
                 >
-                  <Tab eventKey="home" title="Home">
-                    <h2 className="mt-3 text-center">Matthew Coleman</h2>
-                    <h3 className="text-center">Web Designer • Web Developer</h3>
-                    <hr></hr>
-                    <Ratio aspectRatio="16x9">
-                      {/* note: "?enablejsapi=1" is necessary for the postmessage commands to work! */}
-                      <iframe ref={video} width="560" height="315" src="https://www.youtube.com/embed/83YQmNdOmm4?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </Ratio>
-                    <p className="text-center">Hi! I'm Matthew Coleman, and I'm a full-stack web dev based near Atlanta</p>
-                  </Tab>
                   <Tab style={{height: '100%'}} eventKey="projects" title="Projects">
                     <Row className="mt-4">
                       <Col md="6">
@@ -54,7 +44,7 @@ function App() {
                         </Card></a>
                       </Col>
                       <Col md="6">
-                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://github.com/ColemanMatthew-FS/WDD_353_FRONTEND_TO_BACKEND"><Card>
+                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://www.behance.net/gallery/169704795/2022-Bootstrap-Project"><Card>
                           <Card.Img variant="top" src={wdd353}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">WDD353</Card.Title>
@@ -83,6 +73,16 @@ function App() {
                         </Card></a>
                       </Col>
                     </Row>
+                  </Tab>
+                  <Tab eventKey="about" title="About">
+                    <h2 className="mt-3 text-center">Matthew Coleman</h2>
+                    <h3 className="text-center">Web Designer • Web Developer</h3>
+                    <hr></hr>
+                    <Ratio aspectRatio="16x9">
+                      {/* note: "?enablejsapi=1" is necessary for the postmessage commands to work! */}
+                      <iframe ref={video} width="560" height="315" src="https://www.youtube.com/embed/83YQmNdOmm4?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Ratio>
+                    <p className="text-center">Hi! I'm Matthew Coleman, and I'm a full-stack web dev based near Atlanta</p>
                   </Tab>
                   <Tab eventKey="more info" title="More Info">
                     <h4 className="text-center mt-4">Contact</h4>
