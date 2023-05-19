@@ -48,7 +48,7 @@ function App() {
                           <Card.Img variant="top" src={wdd353}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">WDD353</Card.Title>
-                            <Card.Text className="text-center">Bootstrap frontend connected to a Node Express backend, complete with functioning login screen, key learnings included browser sessions.</Card.Text>
+                            <Card.Text className="text-center">Full Sail student project wherein I created a Bootstrap frontend connected to a Node Express backend, complete with functioning login screen, key learnings included browser sessions.</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
@@ -59,7 +59,7 @@ function App() {
                           <Card.Img variant="top" src={ziptrip}></Card.Img>
                           <Card.Body>
                             <Card.Title className="text-center">ZipTrip</Card.Title>
-                            <Card.Text className="text-center">A multi page, GitHub Pages site made in Bootstrap, mocking up a concept for a Travel related app, key learnings included prototyping in Adobe XD, and styling in Bootstrap</Card.Text>
+                            <Card.Text className="text-center">Full Sail student project where I designed a multi page, GitHub Pages site made in Bootstrap, key learnings included prototyping in Adobe XD, and styling in Bootstrap</Card.Text>
                           </Card.Body>
                         </Card></a>
                       </Col>
@@ -82,7 +82,7 @@ function App() {
                       {/* note: "?enablejsapi=1" is necessary for the postmessage commands to work! */}
                       <iframe ref={video} width="560" height="315" src="https://www.youtube.com/embed/83YQmNdOmm4?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Ratio>
-                    <p className="text-center">Hi! I'm Matthew Coleman, and I'm a full-stack web dev based near Atlanta</p>
+                    <p className="text-center mt-3">Hi! I'm Matthew Coleman, and I'm a full-stack web dev based near Atlanta, I worked for the Federal Reserve Bank of Atlanta between June 2022 and June 2023. I hope to find further work creating web applications for enterprises.</p>
                   </Tab>
                   <Tab eventKey="more info" title="More Info">
                     <h4 className="text-center mt-4">Contact</h4>
