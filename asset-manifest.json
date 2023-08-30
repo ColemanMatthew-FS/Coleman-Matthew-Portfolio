@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Coleman-Matthew-Portfolio/static/css/main.870f6108.css",
-    "main.js": "/Coleman-Matthew-Portfolio/static/js/main.e836fe6b.js",
+    "main.js": "/Coleman-Matthew-Portfolio/static/js/main.841291b1.js",
     "static/js/787.72b770ed.chunk.js": "/Coleman-Matthew-Portfolio/static/js/787.72b770ed.chunk.js",
     "static/media/profile.jpeg": "/Coleman-Matthew-Portfolio/static/media/profile.c2c94f588a4df6d2ba15.jpeg",
     "static/media/wdd353.jpg": "/Coleman-Matthew-Portfolio/static/media/wdd353.882eb69b2c7fb7fa9106.jpg",
@@ -10,11 +10,11 @@
     "static/media/cliffport.png": "/Coleman-Matthew-Portfolio/static/media/cliffport.b1e6c1a2b467b62e313a.png",
     "index.html": "/Coleman-Matthew-Portfolio/index.html",
     "main.870f6108.css.map": "/Coleman-Matthew-Portfolio/static/css/main.870f6108.css.map",
-    "main.e836fe6b.js.map": "/Coleman-Matthew-Portfolio/static/js/main.e836fe6b.js.map",
+    "main.841291b1.js.map": "/Coleman-Matthew-Portfolio/static/js/main.841291b1.js.map",
     "787.72b770ed.chunk.js.map": "/Coleman-Matthew-Portfolio/static/js/787.72b770ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.870f6108.css",
-    "static/js/main.e836fe6b.js"
+    "static/js/main.841291b1.js"
   ]
 }
