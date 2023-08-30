@@ -168,7 +168,7 @@ function App() {
                   </div>
                   <div className="justify-content-between" style={{display:"flex"}}>
                     <p>Location</p>
-                    <p>Villa Rica, Georgia</p>
+                    <p>Winston, Georgia</p>
                   </div>
                   <div className="justify-content-between" style={{display:"flex"}}>
                     <p>Graduation</p>
