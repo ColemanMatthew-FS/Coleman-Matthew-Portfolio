@@ -6,6 +6,8 @@ import wdd353 from './images/wdd353.jpg'
 import ziptrip from './images/ziptrip.jpg'
 import cliffport from './images/cliffport.png'
 import profile from './images/profile.jpeg'
+import serverside from './images/serversidepractice2.png'
+import neocities from './images/neocities1.jpg'
 
 function App() {
   const video = useRef();
@@ -33,6 +35,29 @@ function App() {
                   fill
                 >
                   <Tab style={{height: '100%'}} eventKey="projects" title="Projects">
+                    <Row className="mt-4">
+                      <Col md="6">
+                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://github.com/ColemanMatthew-FS/serverside-practice/tree/dev"><Card>
+                          <Card.Img variant="top" src={serverside}></Card.Img>
+                          <Card.Body>
+                            <Card.Title className="text-center">Serverside Coding Case Study</Card.Title>
+                            <Card.Text className="text-center">
+                              An experiment in creating a website using a Twig frontend and a Node.JS backend to connect to a Sequelize server.
+                              A React Router update is currently in the works.
+                            </Card.Text>
+                          </Card.Body>
+                        </Card></a>
+                      </Col>
+                      <Col md="6">
+                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://french-toast-haustier.neocities.org/template.html"><Card>
+                          <Card.Img variant="top" src={neocities}></Card.Img>
+                          <Card.Body>
+                            <Card.Title className="text-center">Neocities Portfolio Template</Card.Title>
+                            <Card.Text className="text-center">A design exercise in creating a stylish Bootstrap single page website.</Card.Text>
+                          </Card.Body>
+                        </Card></a>
+                      </Col>
+                    </Row>
                     <Row className="mt-4">
                       <Col md="6">
                         <a style={{textDecoration: 'none', color:'inherit'}} href="https://emar-data-tools.shinyapps.io/cliff_dashboard_demo/"><Card>
