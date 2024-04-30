@@ -1,13 +1,9 @@
 import { useRef } from 'react';
 import { Container, Row, Col, Card, Ratio, Tab, Tabs } from 'react-bootstrap'
 import './App.scss';
-import cliffdash from './images/cliffdash.png'
-import wdd353 from './images/wdd353.jpg'
-import ziptrip from './images/ziptrip.jpg'
-import cliffport from './images/cliffport.png'
-import profile from './images/profile.jpeg'
-import serverside from './images/serversidepractice2.png'
-import neocities from './images/neocities1.jpg'
+import {
+  cliffdash, wdd353, ziptrip, cliffport, profile, serverside, neocities, cert, capstone
+} from './images'
 
 function App() {
   const video = useRef();
@@ -35,6 +31,34 @@ function App() {
                   fill
                 >
                   <Tab style={{height: '100%'}} eventKey="projects" title="Projects">
+                    <Row className="mt-4">
+                      <Col md="6">
+                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://coursera.org/share/4720f008af93f8bc821bf09aafc98e63">
+                          <Card>
+                            <Card.Img variant="top" src={cert}></Card.Img>
+                            <Card.Body>
+                              <Card.Title className="text-center">IBM Back-End Development Certificate</Card.Title>
+                              <Card.Text className="text-center">
+                                An online course focused on the development and deployment of apps written in Python (particularly Django and Flask). Included a heavy focus on microservice architecture.
+                              </Card.Text>
+                            </Card.Body>
+                          </Card>
+                        </a>
+                      </Col>
+                      <Col md="6">
+                        <a style={{textDecoration: 'none', color:'inherit'}} href="https://github.com/ColemanMatthew-FS/Back-end-Development-Capstone">
+                          <Card>
+                            <Card.Img variant="top" src={capstone}></Card.Img>
+                            <Card.Body>
+                              <Card.Title className="text-center">Back-End Development Capstone</Card.Title>
+                              <Card.Text className="text-center">
+                                A website for a fictional band, allowing users to access and create concerts, as well as hosting song information and some dummy photos. Main website coded in Django, hosted in Kubernetes, and storing data via MySQL, songs API written in flask, hosted in OpenShift, and using MongoDB, and picture API written in Flask, hosted using IBM Cloud, and storing data using IBM Cloud storage.
+                              </Card.Text>
+                            </Card.Body>
+                          </Card>
+                        </a>
+                      </Col>
+                    </Row>
                     <Row className="mt-4">
                       <Col md="6">
                         <a style={{textDecoration: 'none', color:'inherit'}} href="https://github.com/ColemanMatthew-FS/serverside-practice/tree/dev"><Card>

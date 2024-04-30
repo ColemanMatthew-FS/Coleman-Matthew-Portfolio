@@ -1,0 +1,9 @@
+export const capstone = require('./capstone.png');
+export const cert = require('./cert.png');
+export const cliffdash = require('./cliffdash.png');
+export const cliffport = require('./cliffport.png');
+export const neocities = require('./neocities1.jpg');
+export const profile = require('./profile.jpeg');
+export const serverside = require('./serversidepractice2.png');
+export const wdd353 = require('./wdd353.jpg');
+export const ziptrip = require('./ziptrip.jpg');
