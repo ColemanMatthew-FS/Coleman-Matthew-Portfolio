@@ -2,30 +2,14 @@ import Image from "next/image";
 import styles from "../../styles/page.module.css";
 import Text_Block from "@/components/Text_Block";
 import List from "@/components/List";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   let list = ["one", "two"]
-  let nav = [
-    {
-      name: "Home",
-      url: "/home"
-    },
-    {
-      name: "Projects",
-      url: "/projects"
-    },
-    {
-      name: "Skills",
-      url: "/skills"
-    },
-  ]
   return (
     <main className={styles.main}>
       <Text_Block header="test" text="blah"/>
       <Text_Block text="blah"/>
       <List items={list}/>
-      <Navbar items={nav} />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
