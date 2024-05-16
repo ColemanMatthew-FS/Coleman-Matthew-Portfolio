@@ -1,0 +1,10 @@
+.card {
+    height: 100%;
+    width: 50vh;
+    flex-grow: 1;
+}
+
+.imageHolder {
+    background: white;
+    border-radius: .75rem;
+}

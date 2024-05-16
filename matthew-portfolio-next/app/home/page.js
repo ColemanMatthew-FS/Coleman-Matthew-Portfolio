@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex justify-between">
         <div className="xl:w-1/3">
           <p className="text-lg">Matthew Coleman</p>
-          <h1 className="text-7xl mt-10 mb-10">Web designer and developer</h1>
+          <h1 className="text-7xl mt-10 mb-10 font-bold">Web designer and developer</h1>
           <p className="text-lg">I'm a web dev based in Georgia, and I'm open to fulltime employment.</p>
           
           <div className="flex gap-x-4 mt-10">

@@ -64,65 +64,67 @@ export default function Projects() {
   ]
   return (
     <>
-      <h1>
+      <h1 className="font-bold text-4xl m-12">
         My projects
       </h1>
-      <Project
-        image={images[0]}
-        title={"IBM Back-End Development Certificate"}
-        text={
-          "An online course focused on the development and deployment of apps written in Python (particularly Django and Flask). Included a heavy focus on microservice architecture."
-        }
-      />
-      <Project
-        image={images[1]}
-        title={"Back-End Development Capstone"}
-        text={
-          "A website for a fictional band, allowing users to access and create concerts, as well as hosting song information and some dummy photos. Main website coded in Django, hosted in Kubernetes, and storing data via MySQL, songs API written in flask, hosted in OpenShift, and using MongoDB, and picture API written in Flask, hosted using IBM Cloud, and storing data using IBM Cloud storage."
-        }
-      />
-      <Project
-        image={images[2]}
-        title={"Serverside Coding Case Study"}
-        text={
-          "An experiment in creating a website using a Twig frontend and a Node.JS backend to connect to a Sequelize server. A React Router update is currently in the works."
-        }
-      />
-      <Project
-        image={images[3]}
-        title={"Neocities Portfolio Template"}
-        text={
-          "A design exercise in creating a stylish Bootstrap single page website."
-        }
-      />
-      <Project
-        image={images[4]}
-        title={"CLIFF Dashboard"}
-        text={
-          "Worked to port existing Atlanta Federal Reserve tools into HTML, CSS, and JavaScript."
-        }
-      />
-      <Project
-        image={images[5]}
-        title={"CLIFF Portal"}
-        text={
-          "Created a Portal page for the Atlanta Fed's CLIFF tools using HTML, CSS, JavaScript, and Bootstrap."
-        }
-      />
-      <Project
-        image={images[6]}
-        title={"WDD353"}
-        text={
-          "Full Sail student project wherein I created a Bootstrap frontend connected to a Node Express backend, complete with functioning login screen, key learnings included browser sessions."
-        }
-      />
-      <Project
-        image={images[7]}
-        title={"ZipTrip"}
-        text={
-          "Full Sail student project where I designed a multi page, GitHub Pages site made in Bootstrap, key learnings included prototyping in Adobe XD, and styling in Bootstrap."
-        }
-      />
+      <div className="flex flex-wrap gap-x-6 m-12">
+        <Project
+          image={images[0]}
+          title={"IBM Back-End Development Certificate"}
+          text={
+            "An online course focused on the development and deployment of apps written in Python (particularly Django and Flask). Included a heavy focus on microservice architecture."
+          }
+        />
+        <Project
+          image={images[1]}
+          title={"Back-End Development Capstone"}
+          text={
+            "A website for a fictional band, allowing users to access and create concerts, as well as hosting song information and some dummy photos. Main website coded in Django, hosted in Kubernetes, and storing data via MySQL, songs API written in flask, hosted in OpenShift, and using MongoDB, and picture API written in Flask, hosted using IBM Cloud, and storing data using IBM Cloud storage."
+          }
+        />
+        <Project
+          image={images[2]}
+          title={"Serverside Coding Case Study"}
+          text={
+            "An experiment in creating a website using a Twig frontend and a Node.JS backend to connect to a Sequelize server. A React Router update is currently in the works."
+          }
+        />
+        <Project
+          image={images[3]}
+          title={"Neocities Portfolio Template"}
+          text={
+            "A design exercise in creating a stylish Bootstrap single page website."
+          }
+        />
+        <Project
+          image={images[4]}
+          title={"CLIFF Dashboard"}
+          text={
+            "Worked to port existing Atlanta Federal Reserve tools into HTML, CSS, and JavaScript."
+          }
+        />
+        <Project
+          image={images[5]}
+          title={"CLIFF Portal"}
+          text={
+            "Created a Portal page for the Atlanta Fed's CLIFF tools using HTML, CSS, JavaScript, and Bootstrap."
+          }
+        />
+        <Project
+          image={images[6]}
+          title={"WDD353"}
+          text={
+            "Full Sail student project wherein I created a Bootstrap frontend connected to a Node Express backend, complete with functioning login screen, key learnings included browser sessions."
+          }
+        />
+        <Project
+          image={images[7]}
+          title={"ZipTrip"}
+          text={
+            "Full Sail student project where I designed a multi page, GitHub Pages site made in Bootstrap, key learnings included prototyping in Adobe XD, and styling in Bootstrap."
+          }
+        />
+      </div>
     </>
   );
 }
