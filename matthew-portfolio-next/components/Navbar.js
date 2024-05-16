@@ -13,11 +13,11 @@ export default function Navbar( {items} ) {
         ):(<li key={item.id}><p className={styles.paragraph}>{item.name}</p></li>)
     )
     return(
-        <>
-            <p>Matthew Coleman</p>
-            <ul>
+        <div className="flex justify-between items-center h-full mt-5 m-20">
+            <p className={styles.title}>Matthew Coleman</p>
+            <ul className="hidden md:flex gap-x-6 text-lg">
                 { navItems }
             </ul>
-        </>
+        </div>
     )
 }

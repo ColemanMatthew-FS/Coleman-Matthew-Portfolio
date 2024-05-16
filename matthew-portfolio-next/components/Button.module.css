@@ -1,0 +1,15 @@
+.buttonContainer {
+    display: flex;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button {
+    border-radius: .5rem;
+    background-color: purple;
+    padding: .375rem;
+    font-size: 1.25rem;
+    transition: 0.3s;
+}
