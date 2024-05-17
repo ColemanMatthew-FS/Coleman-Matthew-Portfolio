@@ -2,9 +2,16 @@
     height: 100%;
     width: 50vh;
     flex-grow: 1;
+    border-radius: .75rem;
+}
+
+@media (max-width: 1280px) {
+    .card {
+      width: 100%;
+    }
 }
 
 .imageHolder {
-    background: white;
+    background-color: rgb(24, 24, 48);
     border-radius: .75rem;
 }
