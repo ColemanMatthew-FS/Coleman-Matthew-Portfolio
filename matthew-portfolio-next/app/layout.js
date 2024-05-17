@@ -1,8 +1,9 @@
-import { Inter } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
+import { Crimson_Text } from "next/font/google";
 import "../styles/globals.css";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const noto = Noto_Sans({ subsets: ["latin"], weight: '400' });
 
 export const metadata = {
   title: "Create Next App",
@@ -37,7 +38,7 @@ let nav = [
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={noto.className}>
         <Navbar items={nav} />
         {children}
       </body>

@@ -13,7 +13,7 @@ export default function Project({image, title, text}) {
                             </div>
                             <div className="flex justify-between flex-row">
                                 <p>Email:</p>
-                                <a href="mailto:matthewcoleman0066@gmail.com">matthewcoleman0066@gmail.com</a>
+                                <a href="mailto:matthewcoleman0066@gmail.com" className="text-purple-400 hover:underline">matthewcoleman0066@gmail.com</a>
                             </div>
                             <div className="flex justify-between flex-row">
                                 <p>Location:</p>
@@ -21,11 +21,11 @@ export default function Project({image, title, text}) {
                             </div>
                             <div className="flex justify-between flex-row">
                                 <p>GitHub:</p>
-                                <a href="https://github.com/ColemanMatthew-FS">https://github.com/ColemanMatthew-FS</a>
+                                <a href="https://github.com/ColemanMatthew-FS" className="text-purple-400 hover:underline">https://github.com/ColemanMatthew-FS</a>
                             </div>
                             <div className="flex justify-between flex-row">
                                 <p>LinkedIn:</p>
-                                <a href="https://www.linkedin.com/in/matthew-coleman-7b8981221/">https://www.linkedin.com/in/matthew-coleman-7b8981221/</a>
+                                <a href="https://www.linkedin.com/in/matthew-coleman-7b8981221/" className="text-purple-400 hover:underline">https://www.linkedin.com/in/matthew-coleman-7b8981221/</a>
                             </div>
                         </li>
                     </ul>
