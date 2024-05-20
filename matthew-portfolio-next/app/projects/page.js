@@ -1,6 +1,8 @@
 
 import Project from "@/components/Project";
-
+import {
+  cert, capstone, serverside, neocities, cliffdash, cliffport, wdd353, ziptrip
+} from '../../public'
 export default function Projects() {
   
   let imageId = 0
