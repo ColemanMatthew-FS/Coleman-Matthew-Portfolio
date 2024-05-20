@@ -9,7 +9,7 @@ export default function Navbar( {items} ) {
     // const navItems = items.map((item) => <Link href={item.url}>{item.name}</Link>)
 
     const navItems = items.map((item) => 
-        usePathname() != item.url ? (<li key={item.id}><Link href={item.url}>{item.name}</Link></li>
+        usePathname() != item.url ? (<li key={item.id}><Link href={item.url} className="hover:text-purple-300 transition-colors">{item.name}</Link></li>
         ):(<li key={item.id}><p className="text-xl text-purple-300">{item.name}</p></li>)
     )
     return(
