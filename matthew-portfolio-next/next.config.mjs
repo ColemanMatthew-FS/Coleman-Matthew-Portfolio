@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const isGithubActions = process.env.GITHUB_ACTIONS || false // checks if i'm deploying with github actions
-let assetPrefix = ''
+let assetPrefix = '/Coleman-Matthew-Portfolio'
 let basePath = '/Coleman-Matthew-Portfolio'
 // if i'm deploying with github actions, then I change the routes to the static assets
 if(isGithubActions){
     const repo = "Coleman-Matthew-Portfolio"
-    assetPrefix = `/${repo}`
+    assetPrefix = `/${repo}/`
     basePath = `/${repo}`
 }
 const nextConfig = {
