@@ -6,64 +6,66 @@ import {
 export default function Projects() {
   
   let imageId = 0
+  // IMPORTANT: I needed to use cert.default.src so that I could access the compiled URL!
   const images = [
     {
       id: imageId++,
-      src: "/cert.png",
+      src: cert.default.src,
       width: 1052,
       height: 813,
       alt: "IBM front end development certificate"
     },
     {
       id: imageId++,
-      src: "/capstone.png",
+      src: capstone.default.src,
       width: 1004,
       height: 692,
       alt: "IBM front end development capstone"
     },
     {
       id: imageId++,
-      src: "/serversidepractice2.png",
+      src: serverside.default.src,
       width: 599,
       height: 564,
       alt: "Serverside coding practice"
     },
     {
       id: imageId++,
-      src: "/neocities1.jpg",
+      src: neocities.default.src,
       width: 1892,
       height: 945,
       alt: "Neocities website"
     },
     {
       id: imageId++,
-      src: "/cliffdash.png",
+      src: cliffdash.default.src,
       width: 1920,
       height: 967,
       alt: "Career Ladder Identifier and Financial Forecaster"
     },
     {
       id: imageId++,
-      src: "/cliffport.png",
+      src: cliffport.default.src,
       width: 1920,
       height: 965,
       alt: "Career Ladder Identifier and Financial Forecaster portal page"
     },
     {
       id: imageId++,
-      src: "/wdd353.jpg",
+      src: wdd353.default.src,
       width: 1920,
       height: 1004,
       alt: "Full Sail student project"
     },
     {
       id: imageId++,
-      src: "/ziptrip.jpg",
+      src: ziptrip.default.src,
       width: 1920,
       height: 909,
       alt: "Mockup travel app made during my undergrad"
     },
   ]
+  console.log(images[0])
   return (
     <div className="mt-20 px-32">
       <h2 className="font-bold text-4xl mb-12 ">
