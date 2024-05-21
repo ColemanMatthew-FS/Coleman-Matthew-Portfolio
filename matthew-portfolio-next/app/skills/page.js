@@ -9,7 +9,7 @@ export default function Skills() {
       <h2 className="font-bold text-4xl mb-12">
         Skills<span className="text-6xl text-purple-300">.</span>
       </h2>
-      <div className="flex justify-between gap-x-6 ms-96 me-96">
+      <div className="block 2xl:flex justify-between gap-x-6 2xl:mx-96">
         <List header="Programming Languages" items={list1}/>
         <List header="Software" items={list2}/>
       </div>
