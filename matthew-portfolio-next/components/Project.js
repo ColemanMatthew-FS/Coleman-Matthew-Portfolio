@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Project({image, title, text, href}) {
     return(
-        <div className="h-full w-[50vh] grow rounded-xl">
+        <div className="w-full h-full xl:w-[50vh] grow rounded-xl">
             <h2 className="pt-3 pb-3 text-2xl font-semibold">{title}</h2>
             <div className={styles.imageHolder}>
                 <a href={href}>
