@@ -8,12 +8,12 @@ export default function Text_Block( { header, items }) {
         <div>
             { header ? (
                 <>
-                    <h3 className="font-bold text-2xl">{header}</h3>
+                    <h3 className="font-bold text-7xl 2xl:text-2xl">{header}</h3>
                 </>
             ) : (
                 <></>
             )}
-            <ul className="text-lg mt-6">{listItems}</ul>
+            <ul className="text-2xl 2xl:text-lg mt-6 mb-12">{listItems}</ul>
         </div>
     )
 }

@@ -1,5 +1,7 @@
 
 import Project from "@/components/Project";
+//a module export was a good choice. it let me reference the URL of a given image programmatically
+//this is useful for referencing a static url that's only generated once the server runs
 import {
   cert, capstone, serverside, neocities, cliffdash, cliffport, wdd353, ziptrip
 } from '../../public'
@@ -65,13 +67,12 @@ export default function Projects() {
       alt: "Mockup travel app made during my undergrad"
     },
   ]
-  console.log(images[0])
   return (
     <div className="mt-20 px-32">
       <h2 className="font-bold text-4xl mb-12 ">
         My projects<span className="text-6xl text-purple-300">.</span>
       </h2>
-      <div className="block 2xl:flex flex-wrap gap-x-12 rounded-lg">
+      <div className="block xl:flex flex-wrap gap-x-12 rounded-lg">
         <Project
           image={images[0]}
           title={"IBM Back-End Development Certificate"}
