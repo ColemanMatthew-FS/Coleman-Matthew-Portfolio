@@ -13,9 +13,9 @@ export default function Navbar( {items} ) {
         ):(<li key={item.id}><p className="text-xl text-purple-300">{item.name}</p></li>)
     )
     return(
-        <div className="flex justify-between items-center h-full py-10 px-32 sticky top-0">
-            <p className="text-xl">Matthew Coleman</p>
-            <ul className="hidden md:flex gap-x-6 text-xl">
+        <div className="flex md:justify-between justify-center h-full py-10 px-6 md:px-32 sticky top-0">
+            <p className="hidden md:text-xl">Matthew Coleman</p>
+            <ul className="flex gap-x-2 md:gap-x-6 text-xl">
                 { navItems }
             </ul>
         </div>

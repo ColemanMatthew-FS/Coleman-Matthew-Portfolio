@@ -18,7 +18,7 @@ export default function Project({image, title, text, href}) {
                     className="object-cover overflow-hidden rounded-xl"
                     />
                 </a>
-                <p className="p-3">{text}</p>
+                <p className="p-3 hidden md:block">{text}</p>
             </div>
         </div>
     )
