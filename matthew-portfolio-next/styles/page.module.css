@@ -2,8 +2,16 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
   min-height: 100vh;
+}
+
+@media not all and (min-width: 768px) { 
+  .main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .description {

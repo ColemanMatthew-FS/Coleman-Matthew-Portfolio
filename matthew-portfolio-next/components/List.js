@@ -5,10 +5,10 @@ import styles from './List.module.css';
 export default function Text_Block( { header, items }) {
     const listItems = items.map((item) => <li>{item}</li>)
     return(
-        <div>
+        <div className="max-w-lg">
             { header ? (
                 <>
-                    <h3 className="font-bold text-2xl md:text-7xl">{header}</h3>
+                    <h3 className="font-bold text-2xl md:text-5xl">{header}</h3>
                 </>
             ) : (
                 <></>
