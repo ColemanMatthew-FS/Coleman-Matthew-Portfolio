@@ -68,11 +68,11 @@ export default function Projects() {
     },
   ]
   return (
-    <div className="mt-20 px-32">
+    <div className="mt-20 px-8 md:px-32">
       <h2 className="font-bold text-4xl mb-12 ">
         My projects<span className="text-6xl text-purple-300">.</span>
       </h2>
-      <div className="block xl:flex flex-wrap gap-x-12 rounded-lg">
+      <div className="md:flex flex-wrap gap-x-12 rounded-lg">
         <Project
           image={images[0]}
           title={"IBM Back-End Development Certificate"}
