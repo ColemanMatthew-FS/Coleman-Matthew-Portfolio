@@ -1,18 +1,16 @@
 
 import Project from "@/components/Project";
-//a module export was a good choice. it let me reference the URL of a given image programmatically
-//this is useful for referencing a static url that's only generated once the server runs
-import cert from "../../public/cert.png"
 import {
-  capstone, serverside, neocities, cliffdash, cliffport, wdd353, ziptrip
+  cert, capstone, serverside, neocities, cliffdash, cliffport, wdd353, ziptrip
 } from '../../public'
 export default function Projects() {
   let imageId = 0
   // IMPORTANT: I needed to use cert.default.src because client components cant receive module objects!
+  // If imported each module individually, instead of as one object, I could have gotten away with cert.src
   const images = [
     {
       id: imageId++,
-      src: cert.src,
+      src: cert.default.src,
       width: 1052,
       height: 813,
       alt: "IBM front end development certificate"
