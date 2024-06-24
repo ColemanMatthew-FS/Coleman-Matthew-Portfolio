@@ -6,9 +6,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function Navbar( {items} ) {
-    // const navItems = items.map((item) => <Link href={item.url}>{item.name}</Link>)
 
     const navItems = items.map((item) => 
+        // Map through each link
+        // If the link being mapped is not the link to the current page, produce an active link
+        // If it is the current page, produce regular text
+        // I used map instead of foreach, because I didn't want to mutate the {items} argument here
         usePathname() != item.url ? (<li key={item.id}><Link href={item.url} className="hover:text-purple-300 transition-colors">{item.name}</Link></li>
         ):(<li key={item.id}><p className="text-xl text-purple-300">{item.name}</p></li>)
     )
