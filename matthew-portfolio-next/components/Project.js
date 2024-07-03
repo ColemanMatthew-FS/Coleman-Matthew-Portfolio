@@ -13,7 +13,6 @@ export default function Project({image, title, text, href}) {
                 width={image.width}
                 height={image.height}
                 alt={image.alt}
-                {...image}
                 className="md:block object-cover h-24 w-24 md:h-full md:w-full overflow-hidden rounded-r-xl md:rounded-xl max-w-fit"
                 />
                 <p className="p-3 hidden md:block">{text}</p>
