@@ -42,7 +42,13 @@ export default function Project({image, title, text}) {
                     <ul className="mt-6 text-lg">
                         <li className="font-bold">Web Designer and Developer at the Atlanta Federal Reserve Bank (2022-2023)</li>
                         <ul>
-                        Achieved a more accessible suite of online forms and tools for the Career Ladder Identifier and Financial Forecaster project, using HTML, CSS, JS, and JQuery
+                        Achieved a more accessible suite of online forms and tools for the Career Ladder Identifier and Financial Forecaster project, using HTML, CSS, JS, and JQuery.
+                        </ul>
+                    </ul>
+                    <ul className="mt-6 text-lg">
+                        <li className="font-bold">IT Coordinator at Compass Management and Consulting Inc (2024-)</li>
+                        <ul>
+                        Deploying content updates, refactoring code, and developing new features for CMC Inc's dozen client organizations within the healthcare industry.
                         </ul>
                     </ul>
                 </div>

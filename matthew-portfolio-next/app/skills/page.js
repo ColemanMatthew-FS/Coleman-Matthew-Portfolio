@@ -2,8 +2,8 @@
 import List from "@/components/List";
 
 export default function Skills() {
-  let list1 = ["JavaScript","Node.JS","Express.JS","React.JS","Redux.JS","C#","Bootstrap","HTML","CSS"]
-  let list2 = ["Visual Studio Code","Adobe XD","Adobe Illustrator","Xamarin","Microsoft Excel","Microsoft Powerpoint","Clip Studio Paint"]
+  let list1 = ["JavaScript","Node.JS","Express.JS","React.JS","Redux.JS","PHP","Bootstrap","HTML","CSS", "Drupal", "Wordpress"]
+  let list2 = ["Visual Studio Code","Adobe XD","Adobe Illustrator","Xamarin","Microsoft Excel","Microsoft Powerpoint","Clip Studio Paint", "PHP Storm"]
   return (
     <div className="mt-20 px-8 md:px-32">
       <h2 className="font-bold text-4xl mb-12">

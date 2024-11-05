@@ -1,13 +1,20 @@
 
 import Project from "@/components/Project";
 import {
-  cert, capstone, serverside, neocities, cliffdash, cliffport, wdd353, ziptrip
+  lipid, cert, capstone, neocities, cliffdash, cliffport, wdd353, ziptrip
 } from '../../public'
 export default function Projects() {
   let imageId = 0
-  // IMPORTANT: I needed to use cert.default.src because client components cant receive module objects!
-  // If imported each module individually, instead of as one object, I could have gotten away with cert.src
+  // IMPORTANT: I needed to use *FILENAME*.default.src because client components cant receive module objects!
+  // If I imported each module individually, instead of as one object, I could have gotten away with cert.src
   const images = [
+    {
+      id: imageId++,
+      src: lipid.default.src,
+      width: 1920,
+      height: 950,
+      alt: "Lipid.org home page"
+    },
     {
       id: imageId++,
       src: cert.default.src,
@@ -21,13 +28,6 @@ export default function Projects() {
       width: 1004,
       height: 692,
       alt: "IBM front end development capstone"
-    },
-    {
-      id: imageId++,
-      src: serverside.default.src,
-      width: 599,
-      height: 564,
-      alt: "Serverside coding practice"
     },
     {
       id: imageId++,
@@ -73,6 +73,14 @@ export default function Projects() {
       <div className="md:flex flex-wrap gap-x-12 rounded-lg divide-y divide-white w-screen md:w-full md:divide-none">
         <Project
           image={images[0]}
+          title={"lipid.org"}
+          text={
+            "One of a number of websites I work on at Compass Management and Consulting. I've handled everything from Drupal content blocks to the PHP + MySQL backend in order to help the NLA provide comprehensive programs for new and experienced lipidologists."
+          }
+          href="https://www.lipid.org/"
+        />
+        <Project
+          image={images[1]}
           title={"IBM Back-End Development Certificate"}
           text={
             "An online course focused on the development and deployment of apps written in Python (particularly Django and Flask). Included a heavy focus on microservice architecture."
@@ -80,20 +88,12 @@ export default function Projects() {
           href="https://coursera.org/share/4720f008af93f8bc821bf09aafc98e63"
         />
         <Project
-          image={images[1]}
+          image={images[2]}
           title={"Back-End Development Capstone"}
           text={
             "A website for a fictional band, allowing users to access and create concerts, as well as hosting song information and some dummy photos. Main website coded in Django, hosted in Kubernetes, and storing data via MySQL, songs API written in flask, hosted in OpenShift, and using MongoDB, and picture API written in Flask, hosted using IBM Cloud, and storing data using IBM Cloud storage."
           }
           href="https://github.com/ColemanMatthew-FS/Back-end-Development-Capstone"
-        />
-        <Project
-          image={images[2]}
-          title={"Serverside Coding Case Study"}
-          text={
-            "An experiment in creating a website using a Twig frontend and a Node.JS backend to connect to a Sequelize server. A React Router update is currently in the works."
-          }
-          href="https://github.com/ColemanMatthew-FS/serverside-practice/tree/dev"
         />
         <Project
           image={images[3]}
