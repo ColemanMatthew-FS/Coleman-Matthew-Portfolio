@@ -2,7 +2,7 @@
   "name": "matthew-portfolio-next",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://colemanmatthew-fs.github.io/Coleman-Matthew-Portfolio/home",
+  "homepage": "https://coleman-matthew.com/home",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
