@@ -1,6 +1,6 @@
 import Project from "@/components/Project";
 import {
-    dbstarter, lipid, cert, capstone, neocities, cliffdash, cliffport, wdd353, ziptrip
+    clinician, dbstarter, lipid, cert, capstone, neocities, cliffdash, cliffport, ziptrip
 } from '../../public'
 
 export default function Projects() {
@@ -8,6 +8,13 @@ export default function Projects() {
     // IMPORTANT: I needed to use *FILENAME*.default.src because client components cant receive module objects!
     // If I imported each module individually, instead of as one object, I could have gotten away with cert.src
     const images = [
+        {
+            id: imageId++,
+            src: clinician.default.src,
+            width: 1350,
+            height: 866,
+            alt: "Learn Your Lipids find a clinician page"
+        },
         {
             id: imageId++,
             src: dbstarter.default.src,
@@ -59,13 +66,6 @@ export default function Projects() {
         },
         {
             id: imageId++,
-            src: wdd353.default.src,
-            width: 1920,
-            height: 1004,
-            alt: "Full Sail student project"
-        },
-        {
-            id: imageId++,
             src: ziptrip.default.src,
             width: 1920,
             height: 909,
@@ -81,6 +81,14 @@ export default function Projects() {
                 className="md:flex flex-wrap gap-x-12 rounded-lg divide-y divide-white w-screen md:w-full md:divide-none">
                 <Project
                     image={images[0]}
+                    title={"Find a clinician"}
+                    text={
+                        "A WordPress page that mixes in a PHP form where users can enter their location. When they have, a jQuery file captures the request and Ajaxes it to a PHP file to retrieve data from a MySQL database of lipidologists. When this data is retrieved, the Google Maps API is used to display the locations of clinicians."
+                    }
+                    href="https://www.learnyourlipids.com/find-a-clinician"
+                />
+                <Project
+                    image={images[1]}
                     title={"DB Starter"}
                     text={
                         "A template admin interface made in Laravel using the Blade templating engine and AdminLTE styling. A collaboration between myself and my supervisor at Compass Management & Consulting."
@@ -88,7 +96,7 @@ export default function Projects() {
                     href="#"
                 />
                 <Project
-                    image={images[1]}
+                    image={images[2]}
                     title={"lipid.org"}
                     text={
                         "One of a number of websites I work on at Compass Management and Consulting. I've handled everything from Drupal content blocks to the PHP + MySQL backend in order to help the NLA provide comprehensive programs for new and experienced lipidologists."
@@ -96,7 +104,7 @@ export default function Projects() {
                     href="https://www.lipid.org/"
                 />
                 <Project
-                    image={images[2]}
+                    image={images[3]}
                     title={"IBM Back-End Development Certificate"}
                     text={
                         "An online course focused on the development and deployment of apps written in Python (particularly Django and Flask). Included a heavy focus on microservice architecture."
@@ -104,7 +112,7 @@ export default function Projects() {
                     href="https://coursera.org/share/4720f008af93f8bc821bf09aafc98e63"
                 />
                 <Project
-                    image={images[3]}
+                    image={images[4]}
                     title={"Back-End Development Capstone"}
                     text={
                         "A website for a fictional band, allowing users to access and create concerts, as well as hosting song information and some dummy photos. Main website coded in Django, hosted in Kubernetes, and storing data via MySQL, songs API written in flask, hosted in OpenShift, and using MongoDB, and picture API written in Flask, hosted using IBM Cloud, and storing data using IBM Cloud storage."
@@ -112,7 +120,7 @@ export default function Projects() {
                     href="https://github.com/ColemanMatthew-FS/Back-end-Development-Capstone"
                 />
                 <Project
-                    image={images[4]}
+                    image={images[5]}
                     title={"Neocities Portfolio Template"}
                     text={
                         "A design exercise in creating a stylish Bootstrap single page website."
@@ -120,7 +128,7 @@ export default function Projects() {
                     href="https://french-toast-haustier.neocities.org/template.html"
                 />
                 <Project
-                    image={images[5]}
+                    image={images[6]}
                     title={"CLIFF Dashboard"}
                     text={
                         "Worked to port existing Atlanta Federal Reserve tools into HTML, CSS, and JavaScript."
@@ -128,20 +136,12 @@ export default function Projects() {
                     href="https://emar-data-tools.shinyapps.io/cliff_dashboard_demo/"
                 />
                 <Project
-                    image={images[6]}
+                    image={images[7]}
                     title={"CLIFF Portal"}
                     text={
                         "Created a Portal page for the Atlanta Fed's CLIFF tools using HTML, CSS, JavaScript, and Bootstrap."
                     }
                     href="https://emar-data-tools.shinyapps.io/clifftool/"
-                />
-                <Project
-                    image={images[7]}
-                    title={"WDD353"}
-                    text={
-                        "Full Sail student project wherein I created a Bootstrap frontend connected to a Node Express backend, complete with functioning login screen, key learnings included browser sessions."
-                    }
-                    href="https://www.behance.net/gallery/169704795/2022-Bootstrap-Project"
                 />
                 <Project
                     image={images[8]}

@@ -1,8 +1,8 @@
+export const clinician = require('./find_a_clinician.png');
 export const capstone = require('./capstone.png');
 export const cert = require('./cert.png');
 export const cliffdash = require('./cliffdash.png');
 export const cliffport = require('./cliffport.png');
-
 export const dbstarter = require('./dbstarter.png');
 export const neocities = require('./neocities1.jpg');
 export const profile = require('./profile.jpeg');
