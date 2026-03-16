@@ -17,7 +17,7 @@ export default function Home() {
             <Button link="/about" text="About Me" />
           </div>
         </div>
-        <div className="hidden xl:flex w-4/12 relative justify-center p-5 border-solid border-2 rounded-full">
+        <div className="hidden xl:flex w-12/12 relative justify-center p-5 border-solid border-2 rounded-full">
           <Image className="object-cover rounded-full overflow-hidden w-[32rem] h-[32rem]"
             src = {profile}
             alt = "Me!"
